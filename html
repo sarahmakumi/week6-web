@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Skincare Haven</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header class="header">Welcome to Skincare Haven 🌿</header>
+
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Products</a>
+        <a href="#">Tips</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <main class="container">
+        <aside class="sidebar">Discover the best skincare products!</aside>
+        
+        <section class="content">
+            <button id="changeTextBtn">Click to change text</button>
+            <p id="textMessage">Healthy skin starts here! ✨</p>
+            
+            <div class="gallery">
+                <img src="image1.jpg" class="gallery-img" alt="Skincare 1">
+                <img src="image2.jpg" class="gallery-img" alt="Skincare 2">
+                <img src="image3.jpg" class="gallery-img" alt="Skincare 3">
+            </div>
+
+            <form id="contactForm">
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <small id="emailFeedback"></small>
+
+                <label for="password">Password:</label>
+                <input type="password" id="password" required minlength="8">
+                <small id="passwordFeedback"></small>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">© 2025 Skincare Haven</footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
